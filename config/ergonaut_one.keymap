@@ -26,9 +26,9 @@
 
         default_layer {
             bindings = <
-&none  &kp Q  &kp W       &kp E         &kp R         &kp T          &kp Y          &kp U           &kp I        &kp O       &kp P     &kp LBKT
-&none  &kp A  &mt LALT S  &mt LCTRL D   &mt LSHIFT F  &kp G          &kp H          &mt RSHFT J     &mt RCTRL K  &mt RALT L  &kp SEMI  &mt RCTRL SQT
-&none  &kp Z  &kp X       &kp C         &kp V         &kp B          &kp N          &kp M           &kp COMMA    &kp DOT     &kp FSLH  &mt RALT BSLH
+&none  &kp Q  &kp W       &kp E         &kp R         &kp T          &kp Y          &kp U           &kp I        &kp O       &kp P     &none
+&none  &kp A  &mt LALT S  &mt LCTRL D   &mt LSHIFT F  &kp G          &kp H          &mt RSHFT J     &mt RCTRL K  &mt RALT L  &kp SEMI  &none
+&none  &kp Z  &kp X       &kp C         &kp V         &kp B          &kp N          &kp M           &kp COMMA    &kp DOT     &kp FSLH  &none
                           &mt LGUI ESC  &lt 2 TAB     &lt LWR SPACE  &lt LWR ENTER  &mt RSHFT BSPC  &lt RSE DEL
             >;
         };
@@ -44,10 +44,10 @@
 
         raise_layer {
             bindings = <
-&trans  &kp KP_SLASH  &kp HOME  &kp UP    &kp PG_UP  &kp KP_MINUS  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &trans
-&trans  &kp CAPS      &kp LEFT  &kp DOWN  &kp RIGHT  &kp KP_PLUS   &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &trans
-&trans  &kp LALT      &kp END   &kp INS   &kp PG_DN  &kp KP_DOT    &kp KP_DOT       &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &trans
-                                &trans    &trans     &trans        &trans           &trans     &kp KP_N0
+&trans  &kp K_UNDO  &kp HOME  &kp UP    &kp PG_UP  &kp K_CUT    &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &trans
+&trans  &kp CAPS    &kp LEFT  &kp DOWN  &kp RIGHT  &kp K_PASTE  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &trans
+&trans  &kp K_REDO  &kp END   &kp INS   &kp PG_DN  &kp K_COPY   &kp KP_DOT       &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &trans
+                              &kp LALT  &trans     &trans       &trans           &trans     &kp KP_N0
             >;
         };
 
