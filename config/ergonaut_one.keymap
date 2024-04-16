@@ -47,7 +47,7 @@
 &trans  &kp K_UNDO  &kp HOME  &kp UP    &kp PG_UP  &kp K_CUT    &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &trans
 &trans  &kp CAPS    &kp LEFT  &kp DOWN  &kp RIGHT  &kp K_PASTE  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &trans
 &trans  &kp K_REDO  &kp END   &kp INS   &kp PG_DN  &kp K_COPY   &kp KP_DOT       &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &trans
-                              &kp LALT  &trans     &trans       &kp DEL          &none      &kp KP_N0
+                              &kp LALT  &kp LCTRL  &kp LSHIFT   &kp DEL          &none      &kp KP_N0
             >;
         };
 
